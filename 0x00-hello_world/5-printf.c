@@ -1,27 +1,23 @@
-utable File  12 lines (11 sloc)  269 Bytes
-
-   
-
 #include <stdio.h>
-
-
 
 /**
  *
- *  * main - prints the phrase with proper grammar,
+ *  * main - entry point
  *
- *   * but the outcome is a piece of art,
+ *   * @void: no arguments
  *
- *    * Return: 0 if exited properly, non-zero otherwise
+ *    * Description: the program starts and ends here.
  *
- *     */
+ *     * Return: value 0 to exit
+ *
+ *      */
 
 int main(void)
 
 {
 
-		printf("with proper grammar, but the outcome is a piece of art,\n");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 
-			return (0);
+	return (0);
 
 }
