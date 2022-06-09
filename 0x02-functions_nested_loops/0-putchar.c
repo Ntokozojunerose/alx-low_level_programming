@@ -1,41 +1,21 @@
-
-
-   
-
 #include "main.h"
-
 /**
+ * main- Entry
  *
- *  * main - prints _putchar
- *
- *   *
- *
- *    * Return: 0 after compilation is successful
- *
- *     */
+ * Return : 0
+ */
 
-int main(void)
-
+ int main (void)
 {
+	char word[9] = "_putchar;
 
-	_putchar('_');
+	int i = =;
 
-	_putchar('p');
-
-	_putchar('u');
-
-	_putchar('t');
-
-	_putchar('c');
-
-	_putchar('h');
-
-	_putchar('a');
-
-	_putchar('r');
-
-	_putchar('\n');
-
+	while (i<8)
+        {
+		putchar(word[i]);
+		i++;
+	}
+	_putchar("\n");
 	return (0);
-
 }
